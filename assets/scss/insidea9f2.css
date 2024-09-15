@@ -1042,6 +1042,7 @@ and open the template in the editor.
     display: flex;
     align-items: center;
     padding: 20px;
+    margin-top: 20px;
     background: #e2f8ff; }
     #cfssp #last_blk .blks .blk .left_sec {
       width: 50px;
