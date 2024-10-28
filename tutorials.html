@@ -254,46 +254,30 @@
                                 </div>
                                 <div class="sec">
                                     <h5>Aim</h5>
-                                    <p>The aim of this tutorial is for the audience to gain a comprehensive overview of the topic of on-chip EIS with a specific focus on circuit design. In the first part relevant background theory and fundamentals are presented starting with a review on the concept of electrical impedance, the response of electrical systems to dynamic stimulus and the frequency analysis techniques. This is followed by a discussion of the foundations of electrochemical analysis where the importance of interfaces and the modeling of chemical processes as electrical analogs are presented, followed by presentation of the role of EIS and equivalent circuit models.The second part is dedicated to the design of fully integrated on-chip EIS systems, presenting FFT, FRA and other techniques. Finally biomedical applications and BMS systems are presented including design considerations and implementation of EIS for such systems./p>
+                                    <p>The aim of this tutorial is for the audience to gain a comprehensive overview of the topic of on-chip EIS with a specific focus on circuit design. In the first part relevant background theory and fundamentals are presented starting with a review on the concept of electrical impedance, the response of electrical systems to dynamic stimulus and the frequency analysis techniques. This is followed by a discussion of the foundations of electrochemical analysis where the importance of interfaces and the modeling of chemical processes as electrical analogs are presented, followed by presentation of the role of EIS and equivalent circuit models.The second part is dedicated to the design of fully integrated on-chip EIS systems, presenting FFT, FRA and other techniques. Finally biomedical applications and BMS systems are presented including design considerations and implementation of EIS for such systems.</p>
                                 </div>
                                 <div class="sec">
                                     <h5>Detailed Contents</h5>
-                                    <h6 class="first">Part 1: Background and Fundamentals</h6>
+                                    <h6 class="first">Part 1: Background and Fundamentals (one hour)</h6>
                                     <ul>
-                                        <li><b>Introduction:</b> Overview on flexible electronics, definitions and metrics, usage in academia and industry.</li>
-                                        <li><b>Materials and Fabrication:</b> Inorganic and organic semiconductors,
-                                            optoelectronic properties, organic elements, thin film processes, masks, dicing
-                                            before grinding, chips on cavities, handling and embedding, System-in-Foil.</li>
-                                        <li><b>Circuit Elements:</b> OLED structure, function, and pixels, OTFT types, operation,
-                                            and performance, OPVC photovoltaics, hybrid technology and configuration,
-                                            inorganic thin sensors, analog and digital performance.</li>
+                                        <li><b>Review and basics: </b>transient and steady state response of electrical systems, Laplace transform, Heavside definition of electrical impedance, Fourier analysis and frequency spectra, complex plane and bode plots, Lissajous Curves</li>
+                                        <li><b>Electrochemical foundations:</b>transient and steady state response of electrical systems, Laplace transform, Heavside definition of electrical impedance, Fourier analysis and frequency spectra, complex plane and bode plotelectrochemical processes, Faradays law and chemical reactions, characterization of material interfaces, impedance-related processes EIS history, advantages and limitationss, Lissajous Curves</li>
+                                        <li><b>Electrical Modeling:</b> analogs of chemical processes, dielectric relaxation, conductivity and diffusion in aqueous mediums, interfaces and boundary conditions, equivalent circuits.</li>
+                                        <li><b>Discrete Measurement techniques: </b>frequency domain Methods, bridge-based methods, time domain methods, analog to digital conversion, current to voltage conversion, multi terminal measurements and the Potentiostat.</li>
                                     </ul>
-                                    <h6>Part 2: Design Methodology and Applications</h6>
+                                    <h6>Part 2:  Methods, Design and Applications (two hours)</h6>
                                     <ul>
-                                        <li><b>Design flows:</b> traditional analog, digital and mixed-signal flows, EDA tools,
-                                            special features of flexible and organic design flows, challenges, and
-                                            bottlenecks.</li>
-                                        <li><b>Characterization and modeling:</b> mechanical modeling, electrical modeling,
-                                            piezoresistive properties, MOS compact models, bipolars and piezo-junctions,
-                                            optical characterization, PDK development</li>
-                                        <li><b>Design process:</b> system-level considerations, on-chip vs discrete components,
-                                            simulation of mechanical and piezoelectric properties, circuit element sizing,
-                                            layout, and placement considerations.</li>
-                                        <li><b>Circuits:</b> pressure, stress and strain sensors, temperature and humidity
-                                            sensors, ultra-thin data converters, ultra-thin read-out circuits and references,
-                                            on chip signal generation.</li>
-                                        <li><b>Automotive applications:</b> safety technology, sensing, lighting, passenger
-                                            experience.</li>
-                                        <li><b>Biomedical applications:</b> retinal implants, biomarker monitoring, diabetes
-                                            implants, smart patches.</li>
-                                        <li><b>Other applications and outlook:</b> consumer electronics, IoT, printing and
-                                            packaging, future trends.</li>
+                                        <li><b>FFT EIS:</b> broadband stimulus generation, linearity conditions, array structure, analog to digital conversion, integrated FFT.</li>
+                                        <li><b>FRA EIS based on lock-in amplifiers</b> theory of operation, real and imaginary part measurement, quadrature signal generation, Transimpedance amplifier (TIA), analog integrators, multiplying ADC, sigma-delta ADC,</li>
+                                        <li><b>Other FRA EIS techniques:</b>measurement of impedance magnitude and phase, time-to-digital conversion EIS, demodulation EIS, delay measurements, phase detectors, closed looper EIS systems.</li>
+                                        <li><b>On-chip signal generators:</b>spectral purity, spectral density, spectral coverage, Direct Digital Frequency Synthesizers DDFS, tunable oscillators, nonlinear transfer function generators, filter- based synthesizers, Digital to Analog Conversion (DAC) based synthesizers.</li>
+                                        <li><b>Biomedical applications:</b>electrode tissue interface, contact validation, membrane biosensors, DNA detection, long-term biomarker monitoring, biomedical implants, design conderations, area and power constraints, programmability, new techniques.</li>
+                                        <li><b>BMS applications:</b>battery health, smart Lithium-Ion batteries, cell measurement systems, design consideration, frequency range, form factor, implementation on flexible substrates.</li>
                                     </ul>
                                 </div>
                                 <div class="sec">
                                     <h5>Keywords:</h5>
-                                    <p>organic electronics, flexible electronics, modeling, and simulation, EDA,
-                                        biomedical and automotive.</p>
+                                    <p>electrochemical impedance spectroscopy, on-chip EIS, fully integrated signal generators, integrated electrochemical analysis. electronics, flexible electronics</p>
                                 </div>
                             </div>
                         </div>
@@ -332,7 +316,6 @@
                                     <p>As the HR and BR detection accuracy and the range are proportional to the center carrier frequency and the bandwidth, respectively, FMCW vital signs radars typically need to operate in the millimeter-wave frequency band to obtain good micro-doppler and range resolutions. Nevertheless, the performance of the crucial components, such as the voltage-controlled oscillator (VCO) with low phase noise and wide tuning range presents a bottleneck to the development of wideband mm-wave and sub-mm-wave FMCW radars. As the operating frequency approaches the transit frequency (fT), which is constrained by the parasitic capacitance of the transistors, all performance metrics of the VCO—including output signal amplitude, tuning range, phase noise, and power consumption—unavoidably deteriorate. Additionally, the low-quality factor (Q) of varactors and interconnection losses further hamper their performance.</p>
                                     <p>The purpose of the workshop is to introduce different methods for Vital Signs Monitoring with the emphasis of LFMCW Radar techniques and present the challenges of an integrated solution at sub mm-Waves (160GHz).  First of all, the design trade-offs at system level will be presented, followed by circuit design like, LNA, PA, PLL (IQ-VCO, Frequency dividers, Charge pump), Mixers. Thereafter, different algorithms for extracting breathing rate and heart rate are discussed</p>
                                 </div>
-
                             </div>
                         </div>
                     </div>
