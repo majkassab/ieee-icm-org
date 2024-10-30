@@ -258,88 +258,9 @@
     </div>
 
     <br class="px-80">
-</div>
+
 <!-- END OF Table -->   
 
-    <div id="contents" class="clear">
-        <div class="wrapper">
-            <div class="blks clear">
-
-                <div class="blk">
-                    <h2>On-Chip Electrochemical Impedance Spectroscopy: theory, design, implementation and application</h2>
-                    <div class="dbl_blk clear">
-                        <div class="left_blk inner">
-                            <h3>Speakers</h3>
-                            <div class="sec sec_1">
-                                <img src="assets/images/tutorials/tutorial1.png" alt="">
-                                <h4>Prof. Moustafa Nawito</h4>
-                                <a href="tutorial-1.html" target="_blank">View Bio</a>
-                            </div>
-                        </div>
-                        <div class="right_blk inner">
-                            <h3>Abstract</h3>
-                            <div class="content">
-                                <div class="sec">
-                                    <h5>Introduction</h5>
-                                    <p>Electrochemical Impedance Spectroscopy (EIS) is one of the most important techniques employed in electrochemical analysis. It finds applications in a wide range of fields such as corrosion detection, biomedical sensors, battery and fuel cell development, surface characterization and physical electrochemistry, to name a few. The mean reason for its widespread adoption is that fact that it provides more information content than any other electrochemical techniques. Fully integrated on-chip EIS systems have contributed to the popularity of this technique and opened the door for new use cases. Portable and fully implantable biomedical devices for biomarker monitoring, smart Battery Management Systems (BMS) with Cell Monitoring Circuits (CMCs), distributed gas sensors and sensor array microsystems are some of the applications scenarios that rely on on-chip EIS.</p>
-                                    <h5>Why this topic</h5>
-                                    <p>The design and implementation of on-chip EIS presents interesting challenges from a circuit design perspective since it requires analog, mixed-signal and digital design techniques. This can be seen when reviewing the two techniques for on-chip EIS, which fall under two main categories, namely:</p>
-                                    <p>• Fast Fourier Transform (FFT) techniques: here, a broadband signal such as a Dirac pulse or a multi frequency wavelet is used to stimulate the System Under Test (SUT). The amplitude of the input must be small enough so as to induce a linear response from the system. The time domain response is measured, digitized and spectrally analyzed using an FFT algorithm.</p>
-                                    <p>• Frequency Response Analysis (FRA) techniques: here, the SUT is excited by a pure single frequency sinusoidal signal, where the amplitude is also kept low enough to produce a linear response. The frequency of the input sine signal is swept over the range of interest and the impedance is measured one frequency at a time.</p>
-                                    <p>Another aspect which makes the design of on-chip EIS interesting is the higher order of complexity of such systems. Typical integrated EIS blocks require sinusoidal signal generators, active filters, high precision amplifiers, analog multipliers, ADCs, digital control and post processing and other components. When considering that all of these circuits need to be tunable in order to operate on frequencies ranging from the milli-Hertz to several mega-Hertz, depending on the application, it becomes evident how carful system level planning is needed to fulfill the many conflicting requirements of the design space.</p>
-                                </div>
-                                <div class="sec">
-                                    <h5>Aim</h5>
-                                    <p>The aim of this tutorial is for the audience to gain a comprehensive overview of the topic of on-chip EIS with a specific focus on circuit design. In the first part relevant background theory and fundamentals are presented starting with a review on the concept of electrical impedance, the response of electrical systems to dynamic stimulus and the frequency analysis techniques. This is followed by a discussion of the foundations of electrochemical analysis where the importance of interfaces and the modeling of chemical processes as electrical analogs are presented, followed by presentation of the role of EIS and equivalent circuit models.The second part is dedicated to the design of fully integrated on-chip EIS systems, presenting FFT, FRA and other techniques. Finally biomedical applications and BMS systems are presented including design considerations and implementation of EIS for such systems.</p>
-                                </div>
-                                <div class="sec">
-                                    <h5>Detailed Contents</h5>
-                                    <h6 class="first">Part 1: Background and Fundamentals (one hour)</h6>
-                                    <ul>
-                                        <li><b>Review and basics: </b>transient and steady state response of electrical systems, Laplace transform, Heavside definition of electrical impedance, Fourier analysis and frequency spectra, complex plane and bode plots, Lissajous Curves</li>
-                                        <li><b>Electrochemical foundations:</b>transient and steady state response of electrical systems, Laplace transform, Heavside definition of electrical impedance, Fourier analysis and frequency spectra, complex plane and bode plotelectrochemical processes, Faradays law and chemical reactions, characterization of material interfaces, impedance-related processes EIS history, advantages and limitationss, Lissajous Curves</li>
-                                        <li><b>Electrical Modeling:</b> analogs of chemical processes, dielectric relaxation, conductivity and diffusion in aqueous mediums, interfaces and boundary conditions, equivalent circuits.</li>
-                                        <li><b>Discrete Measurement techniques: </b>frequency domain Methods, bridge-based methods, time domain methods, analog to digital conversion, current to voltage conversion, multi terminal measurements and the Potentiostat.</li>
-                                    </ul>
-                                    <h6>Part 2:  Methods, Design and Applications (two hours)</h6>
-                                    <ul>
-                                        <li><b>FFT EIS:</b> broadband stimulus generation, linearity conditions, array structure, analog to digital conversion, integrated FFT.</li>
-                                        <li><b>FRA EIS based on lock-in amplifiers</b> theory of operation, real and imaginary part measurement, quadrature signal generation, Transimpedance amplifier (TIA), analog integrators, multiplying ADC, sigma-delta ADC,</li>
-                                        <li><b>Other FRA EIS techniques:</b>measurement of impedance magnitude and phase, time-to-digital conversion EIS, demodulation EIS, delay measurements, phase detectors, closed looper EIS systems.</li>
-                                        <li><b>On-chip signal generators:</b>spectral purity, spectral density, spectral coverage, Direct Digital Frequency Synthesizers DDFS, tunable oscillators, nonlinear transfer function generators, filter- based synthesizers, Digital to Analog Conversion (DAC) based synthesizers.</li>
-                                        <li><b>Biomedical applications:</b>electrode tissue interface, contact validation, membrane biosensors, DNA detection, long-term biomarker monitoring, biomedical implants, design conderations, area and power constraints, programmability, new techniques.</li>
-                                        <li><b>BMS applications:</b>battery health, smart Lithium-Ion batteries, cell measurement systems, design consideration, frequency range, form factor, implementation on flexible substrates.</li>
-                                    </ul>
-                                    <div class="sec">
-                                    <h5>Relevant Publications by speaker</h5>
-                                    <p>1. M. Nawito, CMOS Readout Chips for Implantable Multimodal Smart Biosensors, Wiesbaden: Springer Vieweg, 2017, pp. 41 – 84 (new technique for on-chip EIS and sine generation)</p>
-                                    <p>2. G. Alavi, M. Nawito, R. Saleh, M.Hassan, C.Harendt, H. Richter, A. Stett, J.N. Burghartz “Embedding ultra-thin implantable biosensor system in polymers foil”, Präsentation bei der microTEC Südwest Clusterkonferenz, Freiburg, Germany, March 2016.</p>
-                                    <p>3. M. Nawito, H. Richter, J.N. Burghartz “Compact Wide-Range Sinusoidal Signal Generator for in vivo Impedance Spectroscopy” in proceedings of DCIS 2015, Estoril Portugal, November 2015.</p>
-                                    <p>4. M. Nawito, G. Link, A. Stett, H. Richter, J.N. Burghartz. „Mikrosensor und Ausleseelektronik für miniaturisierte aktive medizinische Implantate“ in proceedings of 286-289, MST Kongress, Karlsruhe, Germany, October 2015.</p>
-                                    <p>5. M. Nawito, H. Richter, A. Stett, J.N. Burghartz. “A Programmable Energy Efficient Readout Chip for a Multiparameter Highly Integrated Implantable Biosensor System” Journal of Advances in Radio Science, 13, 1–6, Juli 2015.</p>
-                                    <p>6. M. Nawito, H. Richter, J.N. Burghartz „A Readout Chip for Miniaturized in vivo Biosensor Implant“ proceedings of ICT.OPEN2015, 13-16 Amersfoort - Niederlande, March 2015</p>
-                                    <p>7. M. Nawito, H. Richter, C. Scherjon, J.N. Burghartz „ASICs für medizinische Geräte und Implantate“ MPC Gruppe 53. Workshop, 1-6, Esslingen, Germany, Februar 2015.</p>
-                                    <p>8. Stett, G. Link, R. Metzen, K. Schneider, D. Mintenbeck, D. Rossbach, H. Richter, M. Nawito, C. Jeschke, O. Bludau, N. Haas,T. Lebold, M. Kokelmann „Sensorkapsel für die medizinische In- vivo-Biosensorik“. MST Kongress, Karlsruhe, Germany, October 2015.</p>
-                                    <p>9. Stett , G. Link, R. Metzen, K. Schneider, D. Mintenbeck, D. Rossbach, H. Richter, M. Nawito, C. Jeschke, O. Bludau, N. Haas,T. Lebold, M. Kokelmann “SMART Implant: Electronic Implants for Diagnosis and Monitoring”. GMM (Hrsg.), Energieautarke Sensorik (GMM-FB 79), VDE VERLAG GMBH ∙ Berlin ∙ Offenbach; Februar 2014.</p>
-                                    <p>10. Stett , G. Link, R. Metzen, K. Schneider, D. Mintenbeck, D. Rossbach, H. Richter, M. Nawito, C. Jeschke, O. Bludau, N. Haas,T. Lebold, M. Kokelmann “Smart electronic implants for medical biosensory”. Smart Systems Integration Conference, Wien, Österreich, March 2014</p>
-                                    </div>
-                                </div>
-                                <div class="sec">
-                                    <h5>Keywords:</h5>
-                                    <p>electrochemical impedance spectroscopy, on-chip EIS, fully integrated signal generators, integrated electrochemical analysis. electronics, flexible electronics</p>
-                                </div>
-                                <div class="sec">
-                                    <h5>Target audience:</h5>
-                                    <p>engineers, researchers and students interested in the design of on-chip sensors.</p>
-                                </div>
-                                <div class="sec">
-                                    <h5>Prerequisites:</h5>
-                                    <p>basic knowledge of electronic circuits</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 <!--  Insert New items -->
                 <div class="blk">
                     <h2>Vital Signs Monitoring at Sub mm-Waves and IC Design Techniques in Modern CMOS SOI Technologies</h2>
