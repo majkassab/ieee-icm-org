@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+
+
+<!-- Mirrored from www.ieee-icm2023.org/tutorial-2 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 Feb 2024 16:29:34 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <title>ICM 2024 | Mihai Sanduleanu</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/icons/favicon.png">
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+
+    <!--styles-->
+    <link href="assets/scss/reset_cssf195.css?v=2.1" type="text/css" rel="stylesheet" />
+    <link href="assets/scss/stylee67d.css?v=1.3" type="text/css" rel="stylesheet" />
+    <link href="assets/scss/homef731.html?v=5.0" type="text/css" rel="stylesheet" />
+    <link href="assets/scss/insidea9f2.css?v=2.6" type="text/css" rel="stylesheet" />
+    <link href="assets/scss/responsive/style-responsive83a7.css?v=1.9" type="text/css" rel="stylesheet" />
+
+    <!-- Include the jQuery library (local or CDN) -->
+    <script src="assets/js/jquery-latest.min.js"></script>
+
+
+    <link rel="stylesheet" href="assets/plugins/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/plugins/owlcarousel/assets/owl.theme.default.min.css">
+
+    <script src="assets/plugins/owlcarousel/owl.carousel.min.js"></script>
+
+    <link rel="stylesheet" href="assets/plugins/fancybox/dist/jquery.fancybox.min.css" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-4HKHJNMQYY');
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <div class="toggle-menu" id="toggle-menu">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <div class="slide-menu" id="slide-menu">
+            <ul>
+                <li class="active">
+                    <span><a href="index.html">Home</a></span>
+                </li>
+                <li class="active">
+                    <span><a href="about.html">About</a></span>
+                </li>
+                <li class="has-sub"><span class="tab"><a>Contributing</a></span>
+                    <div class="sub-menu">
+                        <ul class="main">
+                            <li><a href="assets/icm-cfp.pdf" download="">Call for Papers</a></li>
+                            <li><a href="cfssp.html">Call for Special Sessions</a></li>
+                            <li><a href="cft.html">Call for Tutorials</a></li>
+                            <li><a href="submission.html">Regular Paper Submission</a></li>
+                            <li><a href="final_paper.html">Final Paper Submission</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="has-sub"><span class="tab"><a>Program</a></span>
+                    <div class="sub-menu">
+                        <ul class="main">
+                            <li><a href="program.html">Program at a Glance</a></li>
+                            <!-- <li><a href="tech_program">Technical Program</a></li> -->
+                            <li><a href="assets/ICM-Program-Final.pdf" download="">Technical Program</a></li>
+                            <li><a href="speakers.html">Keynote Speakers</a></li>
+                            <li><a href="social_events.html">Social Events</a></li>
+                            <li><a href="tutorials.html">Tutorials</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="active">
+                    <span><a href="committee.html">Committee</a></span>
+                </li>
+                <!-- <li class="active">
+                        <span><a href="speakers">Speakers</a></span>                       
+                    </li> -->
+                <!-- <li class="active">
+                    <span><a href="program">Program</a></span>
+                </li> -->
+                <li class="active">
+                    <span><a href="registration.html">Registration</a></span>
+                </li>
+                <!-- <li class="active">
+                    <span><a href="cfp">Call For Paper</a></span>
+                </li> -->
+                <li class="active">
+                    <span><a href="visitor.html">Venue & Visitor Info</a></span>
+                </li>
+                <li class="active">
+                    <span><a href="sponsorship.html">Sponsorship</a></span>
+                </li>
+                <li class="active">
+                    <span><a href="#footer">Contact Us</a></span>
+                </li>
+                <!--                    <li class="has-sub">
+                        <span class="tab"><a>Option With sub</a></span>
+                        <div class="sub-menu">
+                            <ul class="main">
+                                <li><a href="#">Sub option</a></li>
+                                <li><a href="#">Sub option</a></li>
+                                <li class="has-sub">
+                                    <span><a href="#">Sub option with sub</a></span>
+                                    <ul>
+                                        <li><a href="#">sub of sub's sub</a></li>
+                                        <li><a href="#">sub of sub's sub</a></li>
+                                        <li><a href="#">sub of sub's sub</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Sub option</a></li>
+                                <li><a href="#">Sub option</a></li>
+                                <li class="has-sub">
+                                    <span><a href="#">Sub option with sub</a></span>
+                                    <ul>
+                                        <li><a href="#">sub of sub's sub</a></li>
+                                        <li><a href="#">sub of sub's sub</a></li>
+                                        <li><a href="#">sub of sub's sub</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Sub option</a></li>
+                                <li><a href="#">Sub option</a></li>
+                            </ul>
+                        </div>
+                    </li>                    -->
+            </ul>
+        </div>
+    </header>
+
+    <script>
+        $(document).ready(function() {
+            $('#toggle-menu').click(function() {
+                $(this).toggleClass('active');
+                $('#slide-menu').toggleClass('active');
+            });
+
+            $('.slide-menu > ul > li.has-sub .tab').on('click', function() {
+                $(this).siblings('.sub-menu').slideToggle();
+                $(this).parent('li').toggleClass('active');
+            });
+
+            $('.sub-menu li.has-sub').click(function() {
+                $(this).children('ul').slideToggle();
+                $(this).toggleClass('active');
+            });
+        });
+    </script><div id="navbar">
+    <div class="wrapper">
+        <div class="logos clear">
+            <div class="left_blk">
+                <a href="index.html"><img src="assets/images/icm_logoc619.png?v=1.0" alt=""></a>
+            </div>
+            <div class="right_blk clear">
+                 <a href="#" target="_blank"><img style="height: 100px; width: 130px; margin: -15px; padding: 0px; overflow: hidden;clip-path: inset(0px 5px 25px -6px);" src="assets/images/invest-qatar.png" alt=""></a>
+                 <a href="https://www.hbku.edu.qa/en" target="_blank"><img style="width: 120px;" src="assets/images/img1.png" alt=""></a>
+                <!-- MK!!: If you need to add other logo>
+                <!-- <a href="https://www.uaeu.ac.ae/en/" target="_blank"><img style="width: 319px; max-width: 100%;" src="assets/images/uae_uni_logo.jpg" alt=""></a> -->
+                <!-- <a href="https://ieee-cas.org/" target="_blank"><img style="width: 50px;" src="assets/images/cas_logo.png" alt=""></a> -->
+                <a href="https://www.ieee.org/" target="_blank"><img style="width: 150px;" src="assets/images/ieee_logo.png" alt=""></a>
+            </div>
+        </div>
+        <div class="nav_items clear">
+            <ul class="clear">
+                <li><a href="index.html" class="">Home</a></li>
+                <li><a href="about.html" class="">About</a></li>
+                <li>
+                    <a>Contributing</a>
+                    <ul>
+                        <li><a href="assets/icm-cfp.pdf" download="">Call for Papers</a></li>
+                        <li><a href="cfssp.html">Call for Special Sessions</a></li>
+                        <li><a href="cft.html">Call for Tutorials</a></li>
+                        <li><a href="submission.html">Regular Paper Submission</a></li>
+                        <li><a href="final_paper.html">Final Paper Submission</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a>Program</a>
+                    <ul>
+                        <li><a href="program.html">Program at a Glance</a></li>
+                        <!-- <li><a href="tech_program">Technical Program</a></li> -->
+                        <li><a href="assets/ICM-Program-Final.pdf" download="">Technical Program</a></li>
+                        <li><a href="speakers.html">Keynote Speakers
+                            </a></li>
+                        <li><a href="social_events.html">Social Events
+                            </a></li>
+                        <li><a href="tutorials.html">Tutorials
+                            </a></li>
+                    </ul>
+                </li>
+                <!-- <li><a href="program" class="">Program</a></li> -->
+                <li><a href="committee.html" class="">Committee</a></li>
+                <!-- <li><a href="speakers"class="">Speakers</a></li> -->
+
+                <li><a href="registration.html" class="">Registration</a></li>
+                <!-- <li><a href="cfp" class="">Call For Paper</a></li> -->
+                <li><a href="visitor.html" class="">Venue & Visitor Info</a></li>
+                <li><a href="sponsorship.html" class="">Sponsorship</a></li>
+                <li><a href="#footer">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="tutorial-sub">
+    <div id="banner">
+        <div class="wrapper">
+            <div class="inside">
+                <h1>Tutorial</h1>
+                <h2>Tutorial</h2>
+            </div>
+        </div>
+    </div>
+
+    <br class="px-80">
+
+    <div id="sec_blk" class="clear">
+        <div class="wrapper">
+            <div class="dbl_blk clear">
+                <div class="left_blk">
+                    <img src="assets/images/tutorials/tutorial2.png" alt="">
+                </div>
+                <div class="right_blk">
+
+                    <h2>Vital Signs Monitoring at Sub mm-Waves and IC Design Techniques in Modern CMOS SOI Technologies</h2>
+
+                    <h3>Mihai Sanduleanu</h3>
+                    <!-- <h4>Vice-Dean of Engineering and Chair <br>of Electrical Engineering at <br>IU International University of <br>Applied Sciences</h4> -->
+
+                    <div class="bio">
+                        <div class="contents clear">
+                            <div class="content content-1 active">
+                            <p>Mihai Sanduleanu received his MSc, MEE and PhD degrees from the Technical University of Iasi, Romania; Eindhoven University of Technology, The Netherlands; and the University of Twente, The Netherlands; in 1990, 1993 and 1999, respectively. Mihai Sanduleanu received the Philips Foundation MSc and PhD Fellowship in 1993 and 1994 respectively.</p>
+                            <p>From 1999 to 2000, he was with Philips Semiconductors, Nijmegen, The Netherlands, and he worked on fiber optic communication circuits. He then moved to Philips Research Eindhoven, The Netherlands, and was involved in fiber optic interface circuits, radio frequency (RF) interconnected chip (IC) design, mm-waves transceiver design and ultra-low power radios (2000-2007). While at Philips Research, Dr. Sanduleanu was Adjunct Professor in the Microelectronics group of Eindhoven University of Technology. In 2008, he spent six months at Inter-university Microelectronics Center (IMEC), Leuven, Belgium, conducting research on 60GHz transceiver design and THz electronics. From 2008 to 2013, Dr. Sanduleanu conducted research at the IBM T.J. Watson Research Center, Yorktown Heights, New York, in mm-wave transceivers for communication, imaging and radar, high-speed analog-to-digital converters for wired/wireless communication systems and ultra-low power radios.</p>
+                            <p>Dr. Sanduleanu is currently Associate Professor at Khalifa University of Science and Technology. His areas of expertise include wireless transceiver design for RF/mm-waves/THz communication, THz electronics, high speed communication circuits for serial input and output, high speed analog-to-digital converters, phased-array systems, imaging, fiber optic interface IC, ultra-low power radios, data and clock recovery and phase locked loop (PLL), high accuracy/low-power analog/mixed-signal circuits and systems, system on chip (SoC) design, on-chip sensors and actuators for autonomous transceivers (wired/wireless), high-speed digital circuits and systems, electromagnetics and antenna design.</p>
+                            <p>Dr. Sanduleanu has authored/co-authored 9 books and more than 104 papers in international conferences and journals. He also holds 53, granted US patents. Dr. Sanduleanu served as Associate Editor for IEEE Transactions on Circuits and Systems and he serves in the Editorial Board of the Analog Integrated Circuits and Signal Processing Journal and Electronics and Signal Processing</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<br class="px-80">
+
+<div id="footer" class="clear">
+    <div class="wrapper">
+        <div class="dbl_blk clear">
+            <div class="left_blk inner">
+                <h2 class="common-title">Location Map</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d855.4957720655972!2d51.5276622338473!3d25.325060550202586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45c4b9003a3a21%3A0xf325069051fa6a80!2sMarriott%20Marquis%20City%20Center%20Doha%20Hotel!5e1!3m2!1sen!2slb!4v1724371304228!5m2!1sen!2slb" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="right_blk inner">
+                <h2 class="common-title">Contact Us</h2>
+
+                <div class="blk">
+                    <!-- <p class="location">Location will be here</p> -->
+                    <h4>Abdallah Kassem</h4>
+                    <p class="email"><span>Email : </span>icm2024@ieee-icm.org</p>
+                    <!-- <p class="contact">Contact no will be here</p> -->
+                </div>
+
+                <h3>©2024 ICM</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        if (window.innerWidth > 900) {
+            var min_highestSection = 0;
+            $('#footer .dbl_blk .inner').each(function() {
+                if ($(this).height() > min_highestSection) {
+                    min_highestSection = $(this).height();
+                }
+            });
+            $('#footer .dbl_blk .inner').height(min_highestSection);
+            $('#footer .dbl_blk .right_blk').height(min_highestSection - 15);
+        }
+    });
+
+    $(document).ready(function() {
+        if (window.innerWidth > 400) {
+            setTimeout(function() {
+                var min_highestSection = 0;
+                $('#cmn-sponsor .blks .blk').each(function() {
+                    if ($(this).height() > min_highestSection) {
+                        min_highestSection = $(this).height();
+                    }
+                });
+                $('#cmn-sponsor .blks .blk').height(min_highestSection);
+            }, 300);
+        }
+    });
+</script>
+
+</body>
+
+
+<!-- Mirrored from www.ieee-icm2023.org/tutorial-2 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 Feb 2024 16:29:34 GMT -->
+</html>

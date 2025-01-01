@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html>
+
+
+<!-- Mirrored from www.ieee-icm2023.org/program by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 Feb 2025 16:29:23 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <title>ICM 2025 | Program At A Glance</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/icons/favicon.png">
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+
+    <!--styles-->
+    <link href="assets/scss/reset_cssf195.css?v=2.1" type="text/css" rel="stylesheet" />
+    <link href="assets/scss/stylee67d.css?v=1.3" type="text/css" rel="stylesheet" />
+    <link href="assets/scss/homef731.html?v=5.0" type="text/css" rel="stylesheet" />
+    <link href="assets/scss/insidea9f2.css?v=2.6" type="text/css" rel="stylesheet" />
+    <link href="assets/scss/responsive/style-responsive83a7.css?v=1.9" type="text/css" rel="stylesheet" />
+
+    <!-- Include the jQuery library (local or CDN) -->
+    <script src="assets/js/jquery-latest.min.js"></script>
+
+
+    <link rel="stylesheet" href="assets/plugins/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/plugins/owlcarousel/assets/owl.theme.default.min.css">
+
+    <script src="assets/plugins/owlcarousel/owl.carousel.min.js"></script>
+
+    <link rel="stylesheet" href="assets/plugins/fancybox/dist/jquery.fancybox.min.css" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4HKHJNMQYY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-4HKHJNMQYY');
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <div class="toggle-menu" id="toggle-menu">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <div class="slide-menu" id="slide-menu">
+            <ul>
+                <li class="active">
+                    <span><a href="index.html">Home</a></span>
+                </li>
+                <li class="active">
+                    <span><a href="about.html">About</a></span>
+                </li>
+                <li class="has-sub"><span class="tab"><a>Contributing</a></span>
+                    <div class="sub-menu">
+                        <ul class="main">
+                            <li><a href="assets/icm-cfp.pdf" download="">Call for Papers</a></li>
+                            <li><a href="cfssp.html">Call for Special Sessions</a></li>
+                            <li><a href="cft.html">Call for Tutorials</a></li>
+                            <li><a href="submission.html">Regular Paper Submission</a></li>
+                            <li><a href="final_paper.html">Final Paper Submission</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="has-sub"><span class="tab"><a>Program</a></span>
+                    <div class="sub-menu">
+                        <ul class="main">
+                            <li><a href="program.html">Program at a Glance</a></li>
+                            <!-- <li><a href="tech_program">Technical Program</a></li> -->
+                            <li><a href="assets/ICM-Program-Final.pdf" download="">Technical Program</a></li>
+                            <li><a href="speakers.html">Keynote Speakers</a></li>
+                            <li><a href="social_events.html">Social Events</a></li>
+                            <li><a href="tutorials.html">Tutorials</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="active">
+                    <span><a href="committee.html">Committee</a></span>
+                </li>
+                <!-- <li class="active">
+                        <span><a href="speakers">Speakers</a></span>                       
+                    </li> -->
+                <!-- <li class="active">
+                    <span><a href="program">Program</a></span>
+                </li> -->
+                <li class="active">
+                    <span><a href="registration.html">Registration</a></span>
+                </li>
+                <!-- <li class="active">
+                    <span><a href="cfp">Call For Paper</a></span>
+                </li> -->
+                <li class="active">
+                    <span><a href="visitor.html">Venue & Visitor Info</a></span>
+                </li>
+                <li class="active">
+                    <span><a href="sponsorship.html">Sponsorship</a></span>
+                </li>
+                <li class="active">
+                    <span><a href="#footer">Contact Us</a></span>
+                </li>
+                <!--                    <li class="has-sub">
+                        <span class="tab"><a>Option With sub</a></span>
+                        <div class="sub-menu">
+                            <ul class="main">
+                                <li><a href="#">Sub option</a></li>
+                                <li><a href="#">Sub option</a></li>
+                                <li class="has-sub">
+                                    <span><a href="#">Sub option with sub</a></span>
+                                    <ul>
+                                        <li><a href="#">sub of sub's sub</a></li>
+                                        <li><a href="#">sub of sub's sub</a></li>
+                                        <li><a href="#">sub of sub's sub</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Sub option</a></li>
+                                <li><a href="#">Sub option</a></li>
+                                <li class="has-sub">
+                                    <span><a href="#">Sub option with sub</a></span>
+                                    <ul>
+                                        <li><a href="#">sub of sub's sub</a></li>
+                                        <li><a href="#">sub of sub's sub</a></li>
+                                        <li><a href="#">sub of sub's sub</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Sub option</a></li>
+                                <li><a href="#">Sub option</a></li>
+                            </ul>
+                        </div>
+                    </li>                    -->
+            </ul>
+        </div>
+    </header>
+
+    <script>
+        $(document).ready(function() {
+            $('#toggle-menu').click(function() {
+                $(this).toggleClass('active');
+                $('#slide-menu').toggleClass('active');
+            });
+
+            $('.slide-menu > ul > li.has-sub .tab').on('click', function() {
+                $(this).siblings('.sub-menu').slideToggle();
+                $(this).parent('li').toggleClass('active');
+            });
+
+            $('.sub-menu li.has-sub').click(function() {
+                $(this).children('ul').slideToggle();
+                $(this).toggleClass('active');
+            });
+        });
+    </script><div id="navbar">
+    <div class="wrapper">
+        <div class="logos clear">
+            <div class="left_blk">
+                <a href="index.html"><img src="assets/images/icm_logoc619.png?v=1.0" alt=""></a>
+            </div>
+            <div class="right_blk clear">
+                <!--<a href="#" target="_blank"><img style="height: 100px; width: 130px; margin: -15px; padding: 0px; overflow: hidden;clip-path: inset(0px 5px 25px -6px);" src="assets/images/invest-qatar.png" alt=""></a>-->
+                <a href="https://liu.edu.lb/" target="_blank"><img style="width: 90px;" src="assets/images/img1.png" alt=""></a>
+                <!-- MK!!: If you need to add other logo>
+                <!-- <a href="https://www.uaeu.ac.ae/en/" target="_blank"><img style="width: 319px; max-width: 100%;" src="assets/images/uae_uni_logo.jpg" alt=""></a> -->
+                <!-- <a href="https://ieee-cas.org/" target="_blank"><img style="width: 50px;" src="assets/images/cas_logo.png" alt=""></a> -->
+                <!-- <a href="https://www.ieee.org/" target="_blank"><img style="width: 150px; margin-bottom: 20px;" src="assets/images/ieee_logo.png" alt=""></a> -->
+            </div>
+        </div>
+        <div class="nav_items clear">
+            <ul class="clear">
+                <li><a href="index.html" class="">Home</a></li>
+                <li><a href="about.html" class="">About</a></li>
+                <li>
+                    <a>Contributing</a>
+                    <ul>
+                        <li><a href="assets/icm-cfp.pdf" download="">Call for Papers</a></li>
+                        <li><a href="cfssp.html">Call for Special Sessions</a></li>
+                        <li><a href="cft.html">Call for Tutorials</a></li>
+                        <li><a href="submission.html">Regular Paper Submission</a></li>
+                        <li><a href="final_paper.html">Final Paper Submission</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a>Program</a>
+                    <ul>
+                        <li><a href="program.html">Program at a Glance</a></li>
+                        <!-- <li><a href="tech_program">Technical Program</a></li> -->
+                        <li><a href="assets/ICM-Program-Final.pdf" download="">Technical Program</a></li>
+                        <li><a href="speakers.html">Keynote Speakers
+                            </a></li>
+                        <li><a href="social_events.html">Social Events
+                            </a></li>
+                        <li><a href="tutorials.html">Tutorials
+                            </a></li>
+                    </ul>
+                </li>
+                <!-- <li><a href="program" class="active">Program</a></li> -->
+                <li><a href="committee.html" class="">Committee</a></li>
+                <!-- <li><a href="speakers"class="">Speakers</a></li> -->
+
+                <li><a href="registration.html" class="">Registration</a></li>
+                <!-- <li><a href="cfp" class="">Call For Paper</a></li> -->
+                <li><a href="visitor.html" class="">Venue & Visitor Info</a></li>
+                <li><a href="sponsorship.html" class="">Sponsorship</a></li>
+                <li><a href="#footer">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="program">
+    <div id="banner">
+        <div class="wrapper">
+            <div class="inside">
+                <h1>PROGRAM AT A GLANCE</h1>
+                <h2>PROGRAM AT A GLANCE</h2>
+            </div>
+        </div>
+    </div>
+
+    <br class="px-80">
+
+    <div id="second_blk" class="clear">
+        <div class="wrapper">
+            <div class="dbl_blk clear">
+                <div class="left_blk">
+                    <h2 class="common-title">Program <br>at a Glance</h2>
+                </div>
+                <div class="right_blk">
+                    <div class="blk clear">
+                        <h3>01</h3>
+                        <p>Keynote speeches and plenary talks by experts in the field of circuits and systems.</p>
+                    </div>
+                    <div class="blk clear">
+                        <h3>02</h3>
+                        <p>Technical sessions and workshops covering a wide range of topics related to circuits and systems, including analog and digital circuits, communication circuits and systems, bio-inspired circuits and systems, power electronics, signal processing, and more.</p>
+                    </div>
+                    <div class="blk clear">
+                        <h3>03</h3>
+                        <p>Poster sessions, demonstrations, and exhibits showcasing the latest research and technology in circuits and systems.</p>
+                    </div>
+                    <div class="blk clear">
+                        <h3>04</h3>
+                        <p>Networking events, receptions, and social activities providing opportunities for attendees to connect and collaborate with colleagues, peers, and industry experts.</p>
+                    </div>
+                    <div class="blk clear">
+                        <h3>05</h3>
+                        <p>Student activities, including competitions, poster sessions, and career development sessions, aimed at fostering the next generation of circuits and systems professionals.</p>
+                    </div>
+                    <div class="blk clear">
+                        <h3>06</h3>
+                        <p>Special sessions and panels featuring discussions on emerging trends, challenges, and opportunities in the field of circuits and systems.</p>
+                    </div>
+                    <div class="blk clear">
+                        <h3>07</h3>
+                        <p>Awards ceremonies recognizing outstanding contributions and achievements in circuits and systems research and development.</p>
+                    </div>
+                    <div class="blk clear">
+                        <h3>08</h3>
+                        <p>Industry forums and tutorials aimed at bridging the gap between academia and industry, and providing insights into the latest trends and technologies in circuits and systems.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br class="px-80">
+
+    <div id="tables" class="clear">
+        <div class="wrapper">
+            <div class="table">
+                <table>
+                        <tr>
+                            <th class="date" colspan="4">Saturday, December 14</th>
+                        </tr>
+                        <tr>
+                            <th class="first">Time</th>
+                            <th colspan="3">Activity Description ( e.g. Session topic/theme/Break Time/Presenters)</th>
+                        </tr>
+                        <tr>
+                            <td>12:30 pm-2:30 pm</td>
+                            <td><b>Room: Al Areen 5 & 6</b><br>Tutorial-1: Artificial intelligence for wearable devices: a case study using a myoelectric hand prosthesis control interface - Speaker: Dr. Mounir Boukadoum</td>
+                            <td><b>Room: Al Majida</b><br>Tutorial-2: On-Chip Electrochemical Impedance Spectroscopy: theory, design, implementation and application - Speaker: Dr. Moustafa Nawito</td>
+                            <td><b>Room: AL Jazi</b><br>Tutorial-3: Energy-Efficient ASIC Techniques for Implantable Sensing - Speaker: Dr. Hanjun Jiang</td>
+                        </tr>
+                    <tr class="special">
+                        <td>2:30 pm-3:00 pm</td>
+                        <td colspan="3">CB1: Coffee Break</td>
+                    </tr>
+                    <tr>
+                        <td>3:00 pm-5:00 pm</td>
+                        <td><b>Room: Al Areen 5 & 6</b><br>Tutorial-4: Intelligent Memory for Efficient AI Hardware Accelerator - Speaker: Dr. Baker Mohammad</td>
+                        <td><b>Room: Al Majida</b><br>Tutorial-5: Emerging Electromagnetic Acoustic Sensing and Imaging beyond Radar and Ultrasound Systems - Speaker: Dr. Zheng Yuanjin</td>
+                        <td><b>Room: AL Jazi</b><br>Tutorial-6: Smart Sensors for Automotive Applications - Speaker: Dr. Sherif Saleh </td>
+                    </tr>
+                    <tr class="special">
+                        <td>5:00 pm-6:30 pm</td>
+                        <td colspan="3">Conference Reception</td>
+                    </tr>
+                </table>
+            </div>
+
+            <br class="px-80">
+
+            <div class="table">
+                <table>
+                    <tr>
+                        <th class="date" colspan="4">Sunday, December 15</th>
+                    </tr>
+                    <tr>
+                        <th class="first">Time</th>
+                        <th colspan="3">Activity Description ( e.g. Session topic/theme/Break Time/Presenters)</th>
+                    </tr>
+                    <tr class="special">
+                        <td>08:00 am-08:30 am</td>
+                        <td colspan="3"><b>VIP Reception: Al Anood</b><br>Guests’ Arrivals and Registration </td>
+                    </tr>
+                    <tr>
+                        <td>08:30 am-09:00 am</td>
+                        <td colspan="3"><b>Room: Al Areen (Ballroom)</b></br><p>Opening Ceremony</p></td>
+                    </tr>
+                    <tr class="special">
+                        <td>09:00 am-09:40 am</td>
+                        <td colspan="3"><b>Room: Al Areen (Ballroom)</b></br><p>Panel: "Bridging the Divide: The Middle East’s Role in the Global Chip Race" The global semiconductor sector is increasingly shaped by geopolitical tensions and race towards technology acquisition. This round table brings together industry leaders and academic experts from across the globe to discuss the strategic role of Qatar and the wider region in navigating this polarized landscape. Participants will explore opportunities for the Middle East to act as a bridge in advancing equitable access, fostering innovation, and enabling collaboration in microelectronics and chip design amid global competition.</p></td>
+                    </tr>
+                    <tr>
+                        <td>09:40 am-10:00 am</td>
+                        <td colspan="3">CB2: Coffee Break</td>
+                    </tr>
+                    <tr class="special">
+                        <td>10:00 am-11:00 am</td>
+                        <td colspan="2"><b>Room: Al Areen (Ballroom)</b><br>Keynote Speaker-1: Generational Transformations in VLSI Engineering</td>
+                        <td>Dr. Pradeep Elamanchili (Vice President - ASIC Development Engineering, Western Digital)</td>
+                    </tr>
+                    <tr>
+                        <td>11:00 pm-12:20 pm</td>
+                        <td><b>Room: Al Areen 5 & 6</b><br>Technical Session 1 (4 Papers)<br>Biomedical Engineering - Bio-Informatique; Digital Circuits</td>
+                        <td><b>Room: Al Majida</b><br>Technical Session 2 (4 Papers)</br>Special Session: IoT Hardware Intrinsic Attacks</td>
+                        <td>Papers Presentations</td>
+                    </tr>
+                    <tr class="special">
+                        <td>12:20 pm-01:30 pm</td>
+                        <td colspan="3"><b>Al Areen 4</b></br>LB1: Lunch Break</td>
+                    </tr>
+                    <tr>
+                        <td>01:30 pm-02:30 pm</td>
+                        <td colspan="2"><b>Room: Al Areen (Ballroom)</b><br>Keynote Speaker-2: Advancing Monitoring Capabilities: The Role of Wearable Sensors in Advancing Healthcare, Environmental, and Marine Studies</td>
+                        <td>Dr. Khaled Salama (KAUST, KSA)</td>
+                    </tr>
+                    <tr class="special">
+                        <td>02:30 pm-03:50 pm</td>
+                        <td><b>Room: Al Areen 5 & 6</b><br>Technical Session 3 (4 Papers)</br>Biomedical Engineering - Bio-Informatique; Analogue Circuits</td>
+                        <td><b>Room: Al Majida</b><br>Technical Session 4 (4 Papers)</br>ANN/AI/ML/DL in Biomedical Engineering - Bio-Informatique</td>
+                        <td>PapersPresentations</td>
+                    </tr>
+                    <tr>
+                        <td>03:50 pm-04:30 pm</td>
+                        <td colspan="3" >CB3: Coffee Break</td>
+                    </tr>
+                    <tr class="special">
+                        <td>04:30 pm-05:50 pm</td>
+                        <td><b>Room: Al Areen 5 & 6</b><br>Technical Session 5 (4 Papers)</br>Hardware Accelerator-Approximate Computing</td>
+                        <td><b>Room: Al Majida</b><br>Technical Session 6 (4 Papers)</br>Time Efficiency, Process Models, Design optimization</td>
+                        <td>PapersPresentations</td>
+                    </tr>
+                </table>
+            </div>
+
+            <br class="px-80">
+
+            <div class="table">
+                
+                <table>
+                    <tr>
+                        <th class="date" colspan="4">Monday, December 16</th>
+                    </tr>
+                    <tr>
+                        <th class="first">Time</th>
+                        <th colspan="3">Activity Description ( e.g. Session topic/theme/Break Time/Presenters)</th>
+                    </tr>
+                    <tr class="special">
+                        <td>08:00 am-08:30 am</td>
+                        <td colspan="3">Guests’ arrival and registration</td>
+                    </tr>
+                    <tr>
+                        <td>08:30 am-9:30 am</td>
+                        <td colspan="2"><b>Room: Al Areen (Ballroom)</b><br>Keynote Speaker-3: Advances in High-Power Module Packaging for Electric Vehicles</td>
+                        <td>Dr. Achim Strass, Nexperia Head of Technology Scouting and Cooperation</td>
+                    </tr>
+                    <tr class="special">
+                        <td>9:30 am-10:50 am</td>
+                        <td><b>Room: Al Areen 5 & 6</b><br>Technical Session 7 (4 Papers)</br>Chaos Theory and Complex Hardware/Software Systems</td>
+                        <td><b>Room: Al Majida</b><br>Technical Session 8 (4 Papers)</br>ADC-LDO-PLL</td>
+                        <td>Papers Presentations</td>
+                    </tr>
+                    <tr>
+                        <td>10:50 am-11:10 am</td>
+                        <td colspan="3">CB4: Coffee Break</td>
+                    </tr>
+                    <tr class="special">
+                        <td>11:10 am-12:30 pm</td>
+                        <td><b>Room: Al Areen 5 & 6</b><br>Technical Session 9 (4 Papers)</br>Cyber-physical-Hardware Systems Security</td>
+                        <td><b>Room: Al Majida</b><br>Technical Session 10 (4 Papers)</br>Analog and RF Circuit Design Techniques-I</td>
+                        <td>Papers Presentations</td>
+                    </tr>
+                    <tr>
+                        <td>12:30 pm-01:30 pm</td>
+                        <td colspan="3"><b>Break (Al Areen 4)</b></br>LB2: Lunch Break</td>
+                    </tr>
+                    <tr class="special">
+                        <td>01:30 pm-02:30 pm</td>
+                        <td colspan="2"><b>Room: Al Areen (Ballroom)</b><br>Keynote Speaker-4: Neuromorphic Techniques for an Intelligent Vision System</td>
+                        <td>Dr. Kea-Tiong (Samuel) Tang (National Tsing Hua University)</td>
+                    </tr>
+                    <tr>
+                        <td>02:30 pm-03:50 pm</td>
+                        <td><b>Room: Al Areen 5 & 6</b><br>Technical Session 11 (4 Papers)</br>AI/IoT/ML/MDL Systems</td>
+                        <td><b>Room: Al Majida</b><br>Technical Session 12 (4 Papers)</br>Analog and RF Circuit Design Techniques-II</td>
+                        <td>Papers Presentations</td>
+                    </tr>
+                    <tr class="special">
+                        <td>03:50 pm-04:30 pm</td>
+                        <td colspan="3">CB5: Coffee Break</td>
+                    </tr>
+                    <tr>
+                        <td>04:30 pm-05:50 pm</td>
+                        <td><b>Room: Al Areen 5 & 6</b><br>Technical Session 13 (4 Papers)</br>Digital Systems</td>
+                        <td><b>Room: Al Majida</b><br>Technical Session 14 (4 Papers)</br>BioSensor, Magnetic, and Smart sensors and sensor networks.</td>
+                        <td>Papers Presentations</td>
+                    </tr>
+                    <tr class="special">
+                        <td>07:00 pm-09:00 pm</td>
+                        <td colspan="3">Gala Dinner</td>
+                    </tr>
+                </table>
+            </div>
+            <!-- MK2 -->
+            <br class="px-80">
+            
+            <div class="table">
+                <table>
+                    <tr>
+                        <th class="date" colspan="4">Tuesday, December 17</th>
+                    </tr>
+                    <tr>
+                        <th class="first">Time</th>
+                        <th colspan="3">Activity Description ( e.g. Session topic/theme/Break Time/Presenters)</th>
+                    </tr>
+                    <tr class="special">
+                        <td>08:00 am-08:30 am</td>
+                        <td colspan="3">Guests’ Arrival and Registration</td>
+                    </tr>
+                    <tr>
+                        <td>08:30 am-9:10 am</td>
+                        <td colspan="2"><b>Room: Al Areen (Ballroom)</b><br>Keynote Speaker-5: Medical devices at mm-Waves: Vital Signs Monitoring and Non-Invasive Glucometer. Past, present and future</td>
+                        <td>Dr. Mihai Sanduleanu (Khalifa University, UAE)</td>
+                    </tr>
+                    <tr class="special">
+                        <td>9:10 am-10:30 am</td>
+                        <td><b>Room: Al Areen 5 & 6</b><br>Technical Session 15 (4 Papers)</br>Communication-Antenas Systems</td>
+                        <td><b>Room: Al Majida</b><br>Technical Session 16 (4 Papers)</br>AI/ML/MDL System</td>
+                        <td>Papers Presentations</td>
+                    </tr>
+                    <tr>
+                        <td>10:30 am-11:10 am</td>
+                        <td colspan="3">CB6: Coffee Break</td>
+                    </tr>
+                    <tr class="special">
+                        <td>11:10 am-12:30 pm</td>
+                        <td><b>Room: Al Areen 5 & 6</b><br>Technical Session 17 (4 Papers)</br>FPGA Applications</td>
+                        <td><b>Room: Al Majida</b><br>Technical Session 18 (4 Papers)</br>Semi-Conductor Systems</td>
+                        <td>Papers Presentations</td>
+                    </tr>
+                    <tr>
+                        <td>12:30 pm-01:30 pm</td>
+                        <td colspan="3">LB3: Lunch Break</td>
+                    </tr>
+                    <tr class="special">
+                        <td>01:30 pm-02:50 pm</td>
+                        <td><b>Room: Al Areen 5 & 6</b><br>Technical Session 19 (4 Papers)</br>Energy Efficient Computing Based on Emerging Technologies</td>
+                        <td><b>Room: Al Majida</b><br>Technical Session 20 (4 Papers)</br>Power Systems Technologies and Agriculture</td>
+                        <td>Papers Presentations</td>
+                    </tr>
+                    <tr>
+                        <td>02:50 pm-03:59 pm</td>
+                        <td><b>Room: Al Areen 5 & 6</b><br>Technical Session 21 (4 Papers)</br>General circuits-I</td>
+                        <td><b>Room: Al Majida</b><br>Technical Session 22 (4 Papers)</br>: General Circuits-II</td>
+                        <td>Papers Presentations</td>
+                    </tr>
+                    <tr class="special">
+                        <td>03:59 pm-04:19 pm</td>
+                        <td colspan="3">CB6: Coffee Break</td>
+                    </tr>
+                    <tr >
+                        <td>04:19 pm-04:39 pm</td>
+                        <td colspan="3">Closing Ceremony</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <br class="px-80">
+</div>
+
+
+<br class="px-80">
+
+<div id="footer" class="clear">
+    <div class="wrapper">
+        <div class="dbl_blk clear">
+            <div class="left_blk inner">
+                <h2 class="common-title">Location Map</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3324.7006711581816!2d35.479552000000005!3d33.895728999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1518b4a8dcf68a7b%3A0xfc73e79351f5227b!2sCrowne%20Plaza%20Beirut%2C%20an%20IHG%20Hotel!5e1!3m2!1sen!2slb!4v1734180923649!5m2!1sen!2slb" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="right_blk inner">
+                <h2 class="common-title">Contact Us</h2>
+
+                <div class="blk">
+                    <!-- <p class="location">Location will be here</p> -->
+                    <h4>Abdallah Kassem</h4>
+                    <p class="email"><span>Email : </span>info@ieee-icm.org</p>
+                    <!-- <p class="contact">Contact no will be here</p> -->
+                </div>
+
+                <h3>©2025 ICM</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        if (window.innerWidth > 900) {
+            var min_highestSection = 0;
+            $('#footer .dbl_blk .inner').each(function() {
+                if ($(this).height() > min_highestSection) {
+                    min_highestSection = $(this).height();
+                }
+            });
+            $('#footer .dbl_blk .inner').height(min_highestSection);
+            $('#footer .dbl_blk .right_blk').height(min_highestSection - 15);
+        }
+    });
+
+    $(document).ready(function() {
+        if (window.innerWidth > 400) {
+            setTimeout(function() {
+                var min_highestSection = 0;
+                $('#cmn-sponsor .blks .blk').each(function() {
+                    if ($(this).height() > min_highestSection) {
+                        min_highestSection = $(this).height();
+                    }
+                });
+                $('#cmn-sponsor .blks .blk').height(min_highestSection);
+            }, 300);
+        }
+    });
+</script>
+
+</body>
+</html>

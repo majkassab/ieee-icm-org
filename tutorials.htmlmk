@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>ICM 2025 | Tutorials</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/icons/favicon.png">
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+
+    <!--styles-->
+    <link href="assets/scss/reset_cssf195.css?v=2.1" type="text/css" rel="stylesheet" />
+    <link href="assets/scss/stylee67d.css?v=1.3" type="text/css" rel="stylesheet" />
+    <link href="assets/scss/homef731.html?v=5.0" type="text/css" rel="stylesheet" />
+    <link href="assets/scss/insidea9f2.css?v=2.6" type="text/css" rel="stylesheet" />
+    <link href="assets/scss/responsive/style-responsive83a7.css?v=1.9" type="text/css" rel="stylesheet" />
+
+    <!-- Include the jQuery library (local or CDN) -->
+    <script src="assets/js/jquery-latest.min.js"></script>
+
+
+    <link rel="stylesheet" href="assets/plugins/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/plugins/owlcarousel/assets/owl.theme.default.min.css">
+
+    <script src="assets/plugins/owlcarousel/owl.carousel.min.js"></script>
+
+    <link rel="stylesheet" href="assets/plugins/fancybox/dist/jquery.fancybox.min.css" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4HKHJNMQYY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-4HKHJNMQYY');
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <div class="toggle-menu" id="toggle-menu">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <div class="slide-menu" id="slide-menu">
+            <ul>
+                <li class="active">
+                    <span><a href="index.html">Home</a></span>
+                </li>
+                <li class="active">
+                    <span><a href="about.html">About</a></span>
+                </li>
+                <li class="has-sub"><span class="tab"><a>Contributing</a></span>
+                    <div class="sub-menu">
+                        <ul class="main">
+                            <li><a href="assets/icm-cfp.pdf" download="">Call for Papers</a></li>
+                            <li><a href="cfssp.html">Call for Special Sessions</a></li>
+                            <li><a href="cft.html">Call for Tutorials</a></li>
+                            <li><a href="submission.html">Regular Paper Submission</a></li>
+                            <li><a href="final_paper.html">Final Paper Submission</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="has-sub"><span class="tab"><a>Program</a></span>
+                    <div class="sub-menu">
+                        <ul class="main">
+                            <li><a href="program.html">Program at a Glance</a></li>
+                            <!-- <li><a href="tech_program">Technical Program</a></li> -->
+                            <li><a href="assets/ICM-Program-Final.pdf" download="">Technical Program</a></li>
+                            <li><a href="speakers.html">Keynote Speakers</a></li>
+                            <li><a href="social_events.html">Social Events</a></li>
+                            <li><a href="tutorials.html">Tutorials</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="active">
+                    <span><a href="committee.html">Committee</a></span>
+                </li>
+                <!-- <li class="active">
+                        <span><a href="speakers">Speakers</a></span>                       
+                    </li> -->
+                <!-- <li class="active">
+                    <span><a href="program">Program</a></span>
+                </li> -->
+                <li class="active">
+                    <span><a href="registration.html">Registration</a></span>
+                </li>
+                <!-- <li class="active">
+                    <span><a href="cfp">Call For Paper</a></span>
+                </li> -->
+                <li class="active">
+                    <span><a href="visitor.html">Venue & Visitor Info</a></span>
+                </li>
+                <li class="active">
+                    <span><a href="sponsorship.html">Sponsorship</a></span>
+                </li>
+                <li class="active">
+                    <span><a href="#footer">Contact Us</a></span>
+                </li>
+                <!--                    <li class="has-sub">
+                        <span class="tab"><a>Option With sub</a></span>
+                        <div class="sub-menu">
+                            <ul class="main">
+                                <li><a href="#">Sub option</a></li>
+                                <li><a href="#">Sub option</a></li>
+                                <li class="has-sub">
+                                    <span><a href="#">Sub option with sub</a></span>
+                                    <ul>
+                                        <li><a href="#">sub of sub's sub</a></li>
+                                        <li><a href="#">sub of sub's sub</a></li>
+                                        <li><a href="#">sub of sub's sub</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Sub option</a></li>
+                                <li><a href="#">Sub option</a></li>
+                                <li class="has-sub">
+                                    <span><a href="#">Sub option with sub</a></span>
+                                    <ul>
+                                        <li><a href="#">sub of sub's sub</a></li>
+                                        <li><a href="#">sub of sub's sub</a></li>
+                                        <li><a href="#">sub of sub's sub</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Sub option</a></li>
+                                <li><a href="#">Sub option</a></li>
+                            </ul>
+                        </div>
+                    </li>                    -->
+            </ul>
+        </div>
+    </header>
+
+    <script>
+        $(document).ready(function() {
+            $('#toggle-menu').click(function() {
+                $(this).toggleClass('active');
+                $('#slide-menu').toggleClass('active');
+            });
+
+            $('.slide-menu > ul > li.has-sub .tab').on('click', function() {
+                $(this).siblings('.sub-menu').slideToggle();
+                $(this).parent('li').toggleClass('active');
+            });
+
+            $('.sub-menu li.has-sub').click(function() {
+                $(this).children('ul').slideToggle();
+                $(this).toggleClass('active');
+            });
+        });
+    </script><div id="navbar">
+    <div class="wrapper">
+        <div class="logos clear">
+            <div class="left_blk">
+                <a href="index.html"><img src="assets/images/icm_logoc619.png?v=1.0" alt=""></a>
+            </div>
+            <div class="right_blk clear">
+                <!--<a href="#" target="_blank"><img style="height: 100px; width: 130px; margin: -15px; padding: 0px; overflow: hidden;clip-path: inset(0px 5px 25px -6px);" src="assets/images/invest-qatar.png" alt=""></a>-->
+                <a href="https://liu.edu.lb/" target="_blank"><img style="width: 90px;" src="assets/images/img1.png" alt=""></a>
+                <!-- MK!!: If you need to add other logo>
+                <!-- <a href="https://www.uaeu.ac.ae/en/" target="_blank"><img style="width: 319px; max-width: 100%;" src="assets/images/uae_uni_logo.jpg" alt=""></a> -->
+                <!-- <a href="https://ieee-cas.org/" target="_blank"><img style="width: 50px;" src="assets/images/cas_logo.png" alt=""></a> -->
+                <!-- <a href="https://www.ieee.org/" target="_blank"><img style="width: 150px; margin-bottom: 20px;" src="assets/images/ieee_logo.png" alt=""></a> -->
+            </div>
+        </div>
+        <div class="nav_items clear">
+            <ul class="clear">
+                <li><a href="index.html" class="">Home</a></li>
+                <li><a href="about.html" class="">About</a></li>
+                <li>
+                    <a>Contributing</a>
+                    <ul>
+                        <li><a href="assets/icm-cfp.pdf" download="">Call for Papers</a></li>
+                        <li><a href="cfssp.html">Call for Special Sessions</a></li>
+                        <li><a href="cft.html">Call for Tutorials</a></li>
+                        <li><a href="submission.html">Regular Paper Submission</a></li>
+                        <li><a href="final_paper.html">Final Paper Submission</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a>Program</a>
+                    <ul>
+                        <li><a href="program.html">Program at a Glance</a></li>
+                        <!-- <li><a href="tech_program">Technical Program</a></li> -->
+                        <li><a href="assets/ICM-Program-Final.pdf" download="">Technical Program</a></li>
+                        <li><a href="speakers.html">Keynote Speakers
+                            </a></li>
+                        <li><a href="social_events.html">Social Events
+                            </a></li>
+                        <li><a href="tutorials.html">Tutorials
+                            </a></li>
+                    </ul>
+                </li>
+                <!-- <li><a href="program" class="">Program</a></li> -->
+                <li><a href="committee.html" class="">Committee</a></li>
+                <!-- <li><a href="speakers"class="active">Speakers</a></li> -->
+
+                <li><a href="registration.html" class="">Registration</a></li>
+                <!-- <li><a href="cfp" class="">Call For Paper</a></li> -->
+                <li><a href="visitor.html" class="">Venue & Visitor Info</a></li>
+                <li><a href="sponsorship.html" class="">Sponsorship</a></li>
+                <li><a href="#footer">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="tutorials">
+    <div id="banner">
+        <div class="wrapper">
+            <div class="inside">
+                <h1>Tutorials</h1>
+                <h2>Tutorials</h2>
+            </div>
+        </div>
+    </div>
+
+    <br class="px-80">
+
+ 
+ <div id="contents" class="clear">
+        <div class="wrapper">
+            <div class="blks clear">
+
+<!--  1 - Insert New items -->           
+                <div class="blk">
+                    <h2>Artificial intelligence for wearable devices: a case study using a myoelectric hand prosthesis control interface </h2>
+                    <div class="dbl_blk clear">
+                        <div class="left_blk inner">
+                            <h3>Speakers</h3>
+                            <div class="sec sec_1">
+                                <img src="assets/images/tutorials/tutorial3.png" alt="">
+                                <h4>Prof. Mounir Boukadoum</h4>
+                                <a href="tutorial-3.html" target="_blank">View Bio</a>
+                            </div>
+                        </div>
+                        <div class="right_blk inner">
+                            <h3>Abstract</h3>
+                            <div class="content">
+                                <div class="sec">
+                                <p>Nature inspired computation using neural networks has given rise to new problem-solving approaches using examples instead of formal reasoning. In particular, the deep learning paradigm can lead to efficient solutions of complex classification and prediction problems when large numbers of training examples are available. On the other hand, there exist also design problems, which are typically undetermined and for which the training data are limited. The tutorial explores these challenges, both in software and hardware, when applying AI to wearable devices. Using the example of a surface electromyography-driven hand prosthesis control system, the sensing, signal processing, and machine learning pipelines of a full wearable system are detailed.</p>    
+                             </div>
+                        </div>
+                    </div>
+                </div>
+                </div> 
+<!-- 2 - Insert New items -->
+                <div class="blk">
+                    <h2>Intelligent Memory for Efficient AI Hardware Accelerator</h2>
+                    <div class="dbl_blk clear">
+                        <div class="left_blk inner">
+                            <h3>Speakers</h3>
+                            <div class="sec sec_1">
+                                <img src="assets/images/tutorials/tutorial5.png" alt="">
+                                <h4>Prof. Baker Mohammad</h4>
+                                <a href="tutorial-5.html" target="_blank">View Bio</a>
+                            </div>
+                        </div>
+                        <div class="right_blk inner">
+                            <h3>Abstract</h3>
+                            <div class="content">
+                                <div class="sec">
+                                  <p>Memory architecture and design have been critical for digital systems to achieve ample storage, low latency, fast access time, and energy efficiency, especially for battery-operated devices. The increase of data generated by many devices such as mobile phones, sensors, communications, and security increased the requirements for memory capacity and the challenges of memory access and energy. The memory interface has limited throughput and high latency, which has not been scaling at the same rate as data size or processing speed; this limits the performance of accessing the data, which is referred to as the memory wall. In addition to the negative impact on latency and performance, large data movement results in high energy consumption.  Research has focused on elevating the memory wall issue by engineering more memory hierarchy and increasing local on-chip memory. This has partially reduced the timing issue but did not address the high leakage and active energy consumption. It is estimated that over 60% of energy spent on most computing platforms is spent on data movements and memory access. </p>
+                                  <p>The new era of big data and artificial intelligence-based applications has increased the urgency to solve memory capacity, data movement energy, and memory wall issues. Some solutions have brought processing into centralized cloud computing, with high performance and large memory hardware capacity available. However, this brought a new challenge to communications, privacy, security, and latency, especially for real-time applications.  This tutorial highlights the challenges above and presents a new computing paradigm beyond von Neuman's architecture to enable processing as close to the data source as possible. This includes in-memory computing and near-memory computing architecture. Both existing and emerging memory technologies will be explored. Since the new computing paradigm is more data-centric than processing-centric, the traditional single architecture for all applications is not feasible. Hence, domain-specific architecture and hardware solutions need to be adopted.  Popular high computing functions such as Query, MAC, hamming distance, and image compression will be presented as examples of in-memory hardware accelerators.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div> 
+<!--  3- Insert New items -->
+                <div class="blk">
+                    <h2>Energy-Efficient ASIC Techniques for Implantable Sensing</h2>
+                    <div class="dbl_blk clear">
+                        <div class="left_blk inner">
+                            <h3>Speakers</h3>
+                            <div class="sec sec_1">
+                                <img src="assets/images/tutorials/tutorial4.png" alt="">
+                                <h4>Prof. Hanjun Jiang</h4>
+                                <a href="tutorial-4.html" target="_blank">View Bio</a>
+                            </div>
+                        </div>
+                        <div class="right_blk inner">
+                            <h3>Abstract</h3>
+                            <div class="content">
+                                <div class="sec">
+                                <p>Implantable sensing is a promising solution to provide continuous monitoring of human body with a bunch of merits, such as direct measurement of vital signals, improved system robustness, anti-interference capability, etc. The highly-integrated and energy-efficient application specific integrated circuits (ASICs) are the key building components to build the miniature implantable sensors. Such ASICs will provide the functions of signal acquisition, processing and transmission. In this tutorial, we will first review the signal acquisition/processing/transmission requirements in such applications, foll0wed by the major considerations of these ASICs. We will then take two practical applications as the examples, namely, the implantable electrocardiogram (ECG) sensor and the intracranial pressure (ICP) sensor, to exhibit the state-of-the-arts ASIC techniques for ultra-low power bio-signal acquisition, near sensor processing, and short-range through-body data transmission. The design principles of energy-efficient ASICs will be illustrated through these two design examples. The technique trends in this specific area will also be briefly discussed in this tutorial.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div> 
+<!--  4 - Insert New items -->
+                <div class="blk">
+                    <h2>Emerging Electromagnetic Acoustic Sensing and Imaging beyond Radar and Ultrasound Systems</h2>
+                    <div class="dbl_blk clear">
+                        <div class="left_blk inner">
+                            <h3>Speakers</h3>
+                            <div class="sec sec_1">
+                                <img src="assets/images/tutorials/tutorial10.png" alt="">
+                                <h4>Prof. Zheng Yuanjin</h4>
+                                <a href="tutorial-10.html" target="_blank">View Bio</a>
+                            </div>
+                        </div>
+                        <div class="right_blk inner">
+                            <h3>Abstract</h3>
+                            <div class="content">
+                                <div class="sec">
+                                <p>Emerging Electromagnetic Acoustic technique is to combine the merits of traditional electromagnetic sensing technique (e.g. Radar and Lidar) with acoustic imaging (e.g. microphone and ultrasound), and go beyond. In this seminar, we would introduce three topics: (1) Low power phase arrayed Radar chip for SAR imaging, (2) Photoacoustics sensing and imaging system, (3) Thermoacoustics sensing system. On the phase array radar transceiver, the design challenge is to generate and transmit multiphased wideband chirp signal and to do stretch processing based high resolution beamforming. The detailed circuits and system to implement the radar sensor will be presented. Photoacoutics sensor transmit focused laser light deep penetrated to the tissue/blood vessel, inducing high frequency ultrasound signal, and then high resolution acoustic imaging can be formed. To miniaturize the whole sensor and achieve high sensitivity, the fibre coupled pulsed laser, beamforming ultrasound transducer, and low power low noise signal acquisition circuits are designed and implemented. Furthermore, there appears increasing interests to use microwave induced thermoacoustic and/or mageneto-acosutic signal for NDT applications. We will brief introduced some coil based EM transmitter for wireless power transfer, and EMAT based non-contact sensing. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>               
+<!--  5 - Insert New items -->
+                 <div class="blk">
+                    <h2>On-Chip Electrochemical Impedance Spectroscopy: theory, design, implementation and application</h2>
+                    <div class="dbl_blk clear">
+                        <div class="left_blk inner">
+                            <h3>Speakers</h3>
+                            <div class="sec sec_1">
+                                <img src="assets/images/tutorials/tutorial1.png" alt="">
+                                <h4>Prof. Moustafa Nawito</h4>
+                                <a href="tutorial-1.html" target="_blank">View Bio</a>
+                            </div>
+                        </div>
+                        <div class="right_blk inner">
+                            <h3>Abstract</h3>
+                            <div class="content">
+                                <div class="sec">
+                                    <h5>Introduction</h5>
+                                    <p>Electrochemical Impedance Spectroscopy (EIS) is one of the most important techniques employed in electrochemical analysis. It finds applications in a wide range of fields such as corrosion detection, biomedical sensors, battery and fuel cell development, surface characterization and physical electrochemistry, to name a few. The mean reason for its widespread adoption is that fact that it provides more information content than any other electrochemical techniques. Fully integrated on-chip EIS systems have contributed to the popularity of this technique and opened the door for new use cases. Portable and fully implantable biomedical devices for biomarker monitoring, smart Battery Management Systems (BMS) with Cell Monitoring Circuits (CMCs), distributed gas sensors and sensor array microsystems are some of the applications scenarios that rely on on-chip EIS.</p>
+                                    <h5>Why this topic</h5>
+                                    <p>The design and implementation of on-chip EIS presents interesting challenges from a circuit design perspective since it requires analog, mixed-signal and digital design techniques. This can be seen when reviewing the two techniques for on-chip EIS, which fall under two main categories, namely:</p>
+                                    <p>• Fast Fourier Transform (FFT) techniques: here, a broadband signal such as a Dirac pulse or a multi frequency wavelet is used to stimulate the System Under Test (SUT). The amplitude of the input must be small enough so as to induce a linear response from the system. The time domain response is measured, digitized and spectrally analyzed using an FFT algorithm.</p>
+                                    <p>• Frequency Response Analysis (FRA) techniques: here, the SUT is excited by a pure single frequency sinusoidal signal, where the amplitude is also kept low enough to produce a linear response. The frequency of the input sine signal is swept over the range of interest and the impedance is measured one frequency at a time.</p>
+                                    <p>Another aspect which makes the design of on-chip EIS interesting is the higher order of complexity of such systems. Typical integrated EIS blocks require sinusoidal signal generators, active filters, high precision amplifiers, analog multipliers, ADCs, digital control and post processing and other components. When considering that all of these circuits need to be tunable in order to operate on frequencies ranging from the milli-Hertz to several mega-Hertz, depending on the application, it becomes evident how carful system level planning is needed to fulfill the many conflicting requirements of the design space.</p>
+                                </div>
+                                <div class="sec">
+                                    <h5>Aim</h5>
+                                    <p>The aim of this tutorial is for the audience to gain a comprehensive overview of the topic of on-chip EIS with a specific focus on circuit design. In the first part relevant background theory and fundamentals are presented starting with a review on the concept of electrical impedance, the response of electrical systems to dynamic stimulus and the frequency analysis techniques. This is followed by a discussion of the foundations of electrochemical analysis where the importance of interfaces and the modeling of chemical processes as electrical analogs are presented, followed by presentation of the role of EIS and equivalent circuit models.The second part is dedicated to the design of fully integrated on-chip EIS systems, presenting FFT, FRA and other techniques. Finally biomedical applications and BMS systems are presented including design considerations and implementation of EIS for such systems.</p>
+                                </div>
+                                <!--
+                                <div class="sec">
+                                    <h5>Detailed Contents</h5>
+                                    <h6 class="first">Part 1: Background and Fundamentals (one hour)</h6>
+                                    <ul>
+                                        <li><b>Review and basics: </b>transient and steady state response of electrical systems, Laplace transform, Heavside definition of electrical impedance, Fourier analysis and frequency spectra, complex plane and bode plots, Lissajous Curves</li>
+                                        <li><b>Electrochemical foundations:</b>transient and steady state response of electrical systems, Laplace transform, Heavside definition of electrical impedance, Fourier analysis and frequency spectra, complex plane and bode plotelectrochemical processes, Faradays law and chemical reactions, characterization of material interfaces, impedance-related processes EIS history, advantages and limitationss, Lissajous Curves</li>
+                                        <li><b>Electrical Modeling:</b> analogs of chemical processes, dielectric relaxation, conductivity and diffusion in aqueous mediums, interfaces and boundary conditions, equivalent circuits.</li>
+                                        <li><b>Discrete Measurement techniques: </b>frequency domain Methods, bridge-based methods, time domain methods, analog to digital conversion, current to voltage conversion, multi terminal measurements and the Potentiostat.</li>
+                                    </ul>
+                                    <h6>Part 2:  Methods, Design and Applications (two hours)</h6>
+                                    <ul>
+                                        <li><b>FFT EIS:</b> broadband stimulus generation, linearity conditions, array structure, analog to digital conversion, integrated FFT.</li>
+                                        <li><b>FRA EIS based on lock-in amplifiers</b> theory of operation, real and imaginary part measurement, quadrature signal generation, Transimpedance amplifier (TIA), analog integrators, multiplying ADC, sigma-delta ADC,</li>
+                                        <li><b>Other FRA EIS techniques:</b>measurement of impedance magnitude and phase, time-to-digital conversion EIS, demodulation EIS, delay measurements, phase detectors, closed looper EIS systems.</li>
+                                        <li><b>On-chip signal generators:</b>spectral purity, spectral density, spectral coverage, Direct Digital Frequency Synthesizers DDFS, tunable oscillators, nonlinear transfer function generators, filter- based synthesizers, Digital to Analog Conversion (DAC) based synthesizers.</li>
+                                        <li><b>Biomedical applications:</b>electrode tissue interface, contact validation, membrane biosensors, DNA detection, long-term biomarker monitoring, biomedical implants, design conderations, area and power constraints, programmability, new techniques.</li>
+                                        <li><b>BMS applications:</b>battery health, smart Lithium-Ion batteries, cell measurement systems, design consideration, frequency range, form factor, implementation on flexible substrates.</li>
+                                    </ul>
+                                    <div class="sec">
+                                    <h5>Relevant Publications by speaker</h5>
+                                    <p>1. M. Nawito, CMOS Readout Chips for Implantable Multimodal Smart Biosensors, Wiesbaden: Springer Vieweg, 2017, pp. 41 – 84 (new technique for on-chip EIS and sine generation)</p>
+                                    <p>2. G. Alavi, M. Nawito, R. Saleh, M.Hassan, C.Harendt, H. Richter, A. Stett, J.N. Burghartz “Embedding ultra-thin implantable biosensor system in polymers foil”, Präsentation bei der microTEC Südwest Clusterkonferenz, Freiburg, Germany, March 2016.</p>
+                                    <p>3. M. Nawito, H. Richter, J.N. Burghartz “Compact Wide-Range Sinusoidal Signal Generator for in vivo Impedance Spectroscopy” in proceedings of DCIS 2015, Estoril Portugal, November 2015.</p>
+                                    <p>4. M. Nawito, G. Link, A. Stett, H. Richter, J.N. Burghartz. „Mikrosensor und Ausleseelektronik für miniaturisierte aktive medizinische Implantate“ in proceedings of 286-289, MST Kongress, Karlsruhe, Germany, October 2015.</p>
+                                    <p>5. M. Nawito, H. Richter, A. Stett, J.N. Burghartz. “A Programmable Energy Efficient Readout Chip for a Multiparameter Highly Integrated Implantable Biosensor System” Journal of Advances in Radio Science, 13, 1–6, Juli 2015.</p>
+                                    <p>6. M. Nawito, H. Richter, J.N. Burghartz „A Readout Chip for Miniaturized in vivo Biosensor Implant“ proceedings of ICT.OPEN2015, 13-16 Amersfoort - Niederlande, March 2015</p>
+                                    <p>7. M. Nawito, H. Richter, C. Scherjon, J.N. Burghartz „ASICs für medizinische Geräte und Implantate“ MPC Gruppe 53. Workshop, 1-6, Esslingen, Germany, Februar 2015.</p>
+                                    <p>8. Stett, G. Link, R. Metzen, K. Schneider, D. Mintenbeck, D. Rossbach, H. Richter, M. Nawito, C. Jeschke, O. Bludau, N. Haas,T. Lebold, M. Kokelmann „Sensorkapsel für die medizinische In- vivo-Biosensorik“. MST Kongress, Karlsruhe, Germany, October 2015.</p>
+                                    <p>9. Stett , G. Link, R. Metzen, K. Schneider, D. Mintenbeck, D. Rossbach, H. Richter, M. Nawito, C. Jeschke, O. Bludau, N. Haas,T. Lebold, M. Kokelmann “SMART Implant: Electronic Implants for Diagnosis and Monitoring”. GMM (Hrsg.), Energieautarke Sensorik (GMM-FB 79), VDE VERLAG GMBH ∙ Berlin ∙ Offenbach; Februar 2014.</p>
+                                    <p>10. Stett , G. Link, R. Metzen, K. Schneider, D. Mintenbeck, D. Rossbach, H. Richter, M. Nawito, C. Jeschke, O. Bludau, N. Haas,T. Lebold, M. Kokelmann “Smart electronic implants for medical biosensory”. Smart Systems Integration Conference, Wien, Österreich, March 2014</p>
+                                    </div>
+                                </div>
+                                -->
+                                <div class="sec">
+                                    <h5>Keywords:</h5>
+                                    <p>electrochemical impedance spectroscopy, on-chip EIS, fully integrated signal generators, integrated electrochemical analysis. electronics, flexible electronics</p>
+                                </div>
+                                <!--
+                                <div class="sec">
+                                    <h5>Target audience:</h5>
+                                    <p>engineers, researchers and students interested in the design of on-chip sensors.</p>
+                                </div>
+                                <div class="sec">
+                                    <h5>Prerequisites:</h5>
+                                    <p>basic knowledge of electronic circuits</p>
+                                </div>
+                                -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<!--  6- Insert New items 
+                <div class="blk">
+                    <h2>Smart Sensors for Automotive Applications</h2>
+                    <div class="dbl_blk clear">
+                        <div class="left_blk inner">
+                            <h3>Speakers</h3>
+                            <div class="sec sec_1">
+                                <img src="assets/images/tutorials/tutorial2mk.png" alt="">
+                                <h4>Prof. Sherif Saleh</h4>
+                                <a href="tutorial-2mk.html" target="_blank">View Bio</a>
+                            </div>
+                        </div>
+                        <div class="right_blk inner">
+                            <h3>Abstract</h3>
+                            <div class="content">
+                                <div class="sec">
+                                    <p>Recently, the principle of intelligent sensors has become increasingly popular in the automotive market. Car sensors play a crucial role in ensuring that a vehicle operates safely and efficiently. The time now to take advantage of bus communication, digital signal processing and fault diagnosis. ASIC permits the level of integration needed to control the production costs while allowing libraries of component to be assembled cheaply and easily on a workstation to provide the required flexibility.</p>
+                                    <p>Sensors are now an essential part of any modern automotive design and serve many different purposes. They play a key role in helping car manufacturers to bring models to the market that are safer, more economical and more comfortable-to-drive. Over time, sensors will also enable greater degrees of vehicle automation, which is benefit to the industry. The next-generation sensors being developed will ultimately determine the desired autonomous driving experience. Through innovating in the areas mentioned in this insight, the cars of tomorrow will provide a clear and constantly updated picture of what is happening, both in relation to the external environment and in relation to what their occupants are doing. Therefore, sensing technologies hold key to the future of the automotive industry.</p>
+                                    <p>This tutorial will throw light on different types of sensors in a car, which monitor different aspects of a vehicle and send information to the ECU. With the focusing on their functions and their implementation in the system.</p>
+                                </div>
+                                <div class="sec">
+                                    <h5>Keywords:</h5>
+                                    <p>Smart sensors in cars, functions of automotive car sensor, sensors in a complete system, communication between sensors and ECU, and functional safety.</p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+ Insert New items -->
+
+<!--  Insert New items with multi-speaker -->
+
+                <div class="blk">
+                    <h2>Smart Sensors for Automotive Applications</h2>
+                    <div class="dbl_blk clear">
+                        <div class="left_blk inner">
+                            <h3>Speakers</h3>
+                            <div class="sec sec_1">
+                                <img src="assets/images/tutorials/tutorial6.png" alt="">
+                                <h4>Prof. Dr. Sherif Saleh</h4>
+                                <a href="tutorial-6.html" target="_blank">View Bio</a>
+                            </div>
+                            <div class="sec sec_2">
+                                <img src="assets/images/tutorials/tutorial7.png" alt="">
+                                <h4>Prof. Hattan F. Abutarbush</h4>
+                                <a href="tutorial-7.html" target="_blank">View Bio</a>
+                            </div>
+                        </div>
+                        <div class="right_blk inner">
+                            <h3>Abstract</h3>
+                            <div class="content">
+                                <div class="sec">
+                                    <p>Recently, the principle of intelligent sensors has become increasingly popular in the automotive market. Car sensors play a crucial role in ensuring that a vehicle operates safely and efficiently. The time now to take advantage of bus communication, digital signal processing and fault diagnosis. ASIC permits the level of integration needed to control the production costs while allowing libraries of component to be assembled cheaply and easily on a workstation to provide the required flexibility.</p>
+                                    <p>Sensors are now an essential part of any modern automotive design and serve many different purposes. They play a key role in helping car manufacturers to bring models to the market that are safer, more economical and more comfortable-to-drive. Over time, sensors will also enable greater degrees of vehicle automation, which is benefit to the industry. The next-generation sensors being developed will ultimately determine the desired autonomous driving experience. Through innovating in the areas mentioned in this insight, the cars of tomorrow will provide a clear and constantly updated picture of what is happening, both in relation to the external environment and in relation to what their occupants are doing. Therefore, sensing technologies hold key to the future of the automotive industry.</p>
+                                    <p>This tutorial will throw light on different types of sensors in a car, which monitor different aspects of a vehicle and send information to the ECU. With the focusing on their functions and their implementation in the system.</p>
+                                </div>
+                                <div class="sec">
+                                    <h5>Keywords:</h5>
+                                    <p>Smart sensors in cars, functions of automotive car sensor, sensors in a complete system, communication between sensors and ECU, and functional safety.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+<!-- END OF MULTI -->
+            </div>
+        </div>
+    </div>
+
+    <br class="px-80">
+</div>
+
+<!-- Table -->
+    <div id="program">
+     <div id="tables" class="clear">
+        <div class="wrapper">
+            <div class="table">
+                <table>
+                        <tr>
+                            <th class="date" colspan="4">Tutorial Schedule</th>
+                        </tr>
+                        <tr>
+                            <th class="first">Room</th>
+                            <th>Part I</th>
+                            <th>Part II</th>
+                        </tr>
+                        <tr>
+                            <td>Room 1 Chair: Hani Saleh</td>
+                            <td><b>Title:</b>Artificial intelligence for wearable devices: a case study using a myoelectric hand prosthesis control interface.<br><b>Speaker:</b> Mounir Boukadoum</td>
+                            <td><b>Title:</b>Intelligent Memory for Efficient AI Hardware Accelerator<br><b>Speaker:</b> Baker Mohammad</td>   
+                        </tr>
+                    <tr class="special">
+                        <td>Room 2 Chair: Mahmoud Masadeh</td>
+                        <td><b>Title:</b>Energy-Efficient ASIC Techniques for Implantable Sensing <br><b>Speaker:</b> Moustafa Nawito</td>
+                        <td><b>Title:</b>Emerging Electromagnetic Acoustic Sensing and Imaging beyond Radar and Ultrasound Systems<br><b>Speaker:</b>Zheng Yuanjin</td> 
+                    </tr>
+                    <tr>
+                        <td>Room 3 Chair: Milin Zhang</td>
+                        <td><b>Title:</b>On-Chip Electrochemical Impedance Spectroscopy: theory, design, implementation and application <br><b>Speaker:</b> Hanjun Jiang</td>
+                        <td><b>Title:</b>Smart Sensors for Automotive Applications<br><b>Speaker:</b> Sherif Saleh & Hattan Abutarbush</td>
+                    </tr>
+                </table>
+            </div>          
+        </div>
+    </div>
+
+    <br class="px-80">
+</div>
+<!-- END OF Table -->  
+    
+<script>
+        // Wait for the document to be ready
+        $(document).ready(function() {
+            // Add a click event handler to the <h2> elements within .blk
+            $(".blk h2").click(function() {
+                // Find the corresponding .dbl_blk within the same .blk
+                var dblBlk = $(this).closest(".blk").find(".dbl_blk");
+                $(this).toggleClass('active');
+                // Toggle the visibility of .dbl_blk with a slide animation
+                dblBlk.slideToggle();
+            });
+        });
+    </script>
+
+
+<br class="px-80">
+
+<div id="footer" class="clear">
+    <div class="wrapper">
+        <div class="dbl_blk clear">
+            <div class="left_blk inner">
+                <h2 class="common-title">Location Map</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3324.7006711581816!2d35.479552000000005!3d33.895728999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1518b4a8dcf68a7b%3A0xfc73e79351f5227b!2sCrowne%20Plaza%20Beirut%2C%20an%20IHG%20Hotel!5e1!3m2!1sen!2slb!4v1734180923649!5m2!1sen!2slb" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="right_blk inner">
+                <h2 class="common-title">Contact Us</h2>
+
+                <div class="blk">
+                    <!-- <p class="location">Location will be here</p> -->
+                    <h4>Abdallah Kassem</h4>
+                    <p class="email"><span>Email : </span>info@ieee-icm.org</p>
+                    <!-- <p class="contact">Contact no will be here</p> -->
+                </div>
+
+                <h3>©2025 ICM</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+        if (window.innerWidth > 900) {
+            var min_highestSection = 0;
+            $('#footer .dbl_blk .inner').each(function() {
+                if ($(this).height() > min_highestSection) {
+                    min_highestSection = $(this).height();
+                }
+            });
+            $('#footer .dbl_blk .inner').height(min_highestSection);
+            $('#footer .dbl_blk .right_blk').height(min_highestSection - 15);
+        }
+    });
+
+    $(document).ready(function() {
+        if (window.innerWidth > 400) {
+            setTimeout(function() {
+                var min_highestSection = 0;
+                $('#cmn-sponsor .blks .blk').each(function() {
+                    if ($(this).height() > min_highestSection) {
+                        min_highestSection = $(this).height();
+                    }
+                });
+                $('#cmn-sponsor .blks .blk').height(min_highestSection);
+            }, 300);
+        }
+    });
+</script>
+
+</body>
+
+
+<!-- Mirrored from www.ieee-icm2023.org/tutorials by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 Feb 2025 16:29:28 GMT -->
+</html>
